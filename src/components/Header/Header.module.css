@@ -1,0 +1,14 @@
+.header {
+  border-bottom: 3px solid #3bb9a8;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  width: 700px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-weight: 500;
+}

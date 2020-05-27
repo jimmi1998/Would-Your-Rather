@@ -1,0 +1,36 @@
+.tabsContainer {
+  border: 1px solid #f1f0f1;
+  border-radius: 4px;
+}
+
+.tabs {
+  display: flex;
+}
+
+.active {
+  background-color: #f1eff1;
+  color: #3bb9a8;
+}
+
+.tab {
+  padding: 8px;
+  font-weight: 500;
+  flex-grow: 1;
+  border: 1px solid #f1f0f1;
+  cursor: pointer;
+}
+
+.tab:first-child {
+  border-radius: 4px 0 0 0px;
+}
+.tab:last-child {
+  border-radius: 0px 4px 0 0;
+}
+
+.tab:hover {
+  background-color: #f9f8f9;
+}
+
+.tabContent {
+  padding: 16px;
+}

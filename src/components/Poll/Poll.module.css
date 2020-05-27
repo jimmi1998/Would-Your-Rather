@@ -1,0 +1,57 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-grow: 1;
+  padding: 0 16px;
+}
+
+.title h2 {
+  margin: 0;
+}
+
+.options {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.option {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.option input {
+  margin-top: 4px;
+}
+
+.submit {
+  align-self: stretch;
+  border: 1px solid #3bb9a8;
+  border-radius: 4px;
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #299e8d;
+  color: white;
+  font-weight: 500;
+}
+
+.submit:hover {
+  background-color: #207e70;
+}
+
+.submit:active {
+  transform: translateY(1px);
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+.disabled:active {
+  transform: none;
+}

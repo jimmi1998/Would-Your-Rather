@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.greeting {
+  margin: 0;
+}
+
+.avatar {
+  margin: 0 16px;
+}
+
+.logout {
+  padding: 0 8px 8px;
+  cursor: pointer;
+}
+
+.logout:hover {
+  background-color: #3bb9a8;
+  color: white;
+}

@@ -1,0 +1,15 @@
+.progressBar {
+  background-color: #dcdbdc;
+  border-radius: 4px;
+}
+
+.progress {
+  border-radius: 4px;
+  background-color: #32bea8;
+  color: white;
+  text-align: right;
+}
+
+.progress span {
+  padding: 4px;
+}

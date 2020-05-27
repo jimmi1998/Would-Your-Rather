@@ -1,0 +1,27 @@
+.question {
+  border: 1px solid #f1f0f1;
+  border-radius: 4px;
+  width: 600px;
+  margin: 0 auto 16px;
+}
+
+.title {
+  background-color: #f9f8f9;
+  display: flex;
+  justify-content: flex-start;
+  padding: 16px 32px;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  padding: 16px;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #f1f0f1;
+  padding: 0 16px;
+}

@@ -1,0 +1,65 @@
+.content {
+  padding: 0 16px;
+  flex-grow: 1;
+}
+
+.title {
+  text-align: left;
+  margin: 0;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.option {
+  padding: 16px;
+  flex-grow: 1;
+  border: 1px solid #e8e7e8;
+  background-color: #f9f8f9;
+  border-radius: 4px;
+  margin: 16px 0;
+  position: relative;
+}
+
+.active {
+  background-color: #e2f8f9;
+  color: #32bea6;
+  border: 1px solid #32bea6;
+}
+
+.label {
+  text-align: left;
+  margin: 0;
+  font-weight: 500;
+}
+
+.bar {
+  margin: 16px 0 8px;
+}
+
+.badge {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #debb44;
+  color: white;
+}
+
+.badge p {
+  margin: 4px 0 0;
+}
+
+.numbers {
+  font-weight: 500;
+  color: black;
+}
